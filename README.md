@@ -28,7 +28,7 @@ public class Dinglemouse {
   }
 }
 ```
-
+## kata task2
 [Task link](https://www.codewars.com/kata/61123a6f2446320021db987d)    
 My solution
 ```java
