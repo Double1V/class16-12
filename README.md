@@ -29,3 +29,32 @@ public class Dinglemouse {
 }
 ```
 
+[Task link](https://www.codewars.com/kata/61123a6f2446320021db987d)    
+My solution
+```java
+public class Kata {
+    public static Integer prevMultOfThree(int n) {
+        while (n != 0) {
+            if (n % 3 == 0) {
+                return n;
+            }
+            n = n / 10;
+        }
+        return null;
+    }
+}
+```
+
+My fav solution
+```java
+public class Kata {
+  
+  public static Integer prevMultOfThree(int n) {
+    for (; n > 0; n /= 10)
+      if (n % 3 == 0) return n;
+  
+    return null;
+  }
+  
+}
+```
